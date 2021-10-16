@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+body{
+   background: #181818; 
+   color: #fff;
+   font-family: 'Quicksand', sans-serif;
+   padding: 0 1.5em;
+}
+.container{
+   max-width: 1170px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1.5em;
+}
+.logo{
+  text-align: center;
+  font-size: 3em;
+}
+.logo span{
+  color: #b70e21;
+}
+.envoltura-contato{
+  box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
+}
+.envoltura-contato > * {
+   padding: 1em;
+}
+
+.contate-nos{
+  background:#222222; 
+}
+
+.contate-nos form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contate-nos form .block{
+  grid-column: 1 / 3;
+}
+
+.contate-nos form p{
+  margin: 0;
+  padding: 1em;
+}
+
+
+.contate-nos form button,
+.contate-nos form input,
+.contate-nos form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+
+}
+.contate-nos form button{
+  background: #b70e21;
+  color: #000;
+  border: o;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.contate-nos form button:hover,
+.contate-nos form button:focus{
+  background:  #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+
+.info-contato {
+  background: #000;
+}
+.info-contato h4,
+.info-contato ul,
+.info-contato p{
+   text-align: center;
+   margin: 0 0 1rem 0;
+}
+.info-contato ul{
+    list-style: none;
+    padding: 0;
+}
+
+.info-contato ul li{
+  padding: 0;
+}
+
+/*LARGE SCREEN*/
+
+@media (min-width: 700px){
+  body{
+    padding: 0 4rem;
+  }
+  .envoltura-contato{
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+  }
+  .envoltura-contato > * {
+    padding: 2em;
+  }
+  .info-contato h4,
+ .info-contato ul,
+ .info-contato p{
+   padding: 1em;
+ }
+}
+
+
+
+
