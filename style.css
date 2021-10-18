@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body{
-   background: #181818; 
-   color: #fff;
+   background: #594e5e; 
+   color: rgb(241, 190, 218);
    line-height: 1.6;
    font-family: 'Quicksand', sans-serif;
    padding: 0 1.5em;
@@ -23,7 +23,7 @@ ul{
   font-size: 3em;
 }
 .logo span{
-  color: #b70e21;
+  color: rgb(238, 27, 203);
 }
 .envoltura-contato{
   box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
@@ -33,7 +33,7 @@ ul{
 }
 
 .contate-nos{
-  background:#222222; 
+  background:rgb(55, 59, 87); 
 }
 
 .contate-nos form{
@@ -61,28 +61,28 @@ ul{
   border: none;
   background: none;
   outline: none;
-  color: #fff;
-  border-bottom: 1px solid #d63031;
+  color: rgb(241, 190, 218)f;
+  border-bottom: 1px solid rgb(238, 27, 203);
 
 }
 .contate-nos form button{
-  background: #b70e21;
-  color: #000;
+  background: rgb(238, 27, 203);
+  color: rgb(241, 190, 218);
   border: 0;
   text-transform: uppercase;
   padding: 1em;
 }
 .contate-nos form button:hover,
 .contate-nos form button:focus{
-  background:  #d63031;
-  color: #fff;
+  background:  #f34df3;
+  color: rgb(241, 190, 218);
   transition: background-color 1s ease-out;
   outline: 0;
 }
 
 
 .info-contato {
-  background: #000;
+  background: rgb(35, 36, 58);
 }
 .info-contato h4,
 .info-contato ul,
