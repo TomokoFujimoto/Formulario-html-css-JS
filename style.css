@@ -4,6 +4,7 @@
 body{
    background: #181818; 
    color: #fff;
+   line-height: 1.6;
    font-family: 'Quicksand', sans-serif;
    padding: 0 1.5em;
 }
@@ -12,6 +13,10 @@ body{
    margin-left: auto;
    margin-right: auto;
    padding: 1.5em;
+}
+ul{
+  list-style: none;
+  padding: 0;
 }
 .logo{
   text-align: center;
@@ -35,7 +40,9 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+.contate-nos label{
+  display: block;
+}
 .contate-nos form .block{
   grid-column: 1 / 3;
 }
@@ -61,7 +68,7 @@ body{
 .contate-nos form button{
   background: #b70e21;
   color: #000;
-  border: o;
+  border: 0;
   text-transform: uppercase;
   padding: 1em;
 }
@@ -99,15 +106,15 @@ body{
     padding: 0 4rem;
   }
   .envoltura-contato{
-     display: grid;
-     grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
   }
   .envoltura-contato > * {
     padding: 2em;
   }
   .info-contato h4,
- .info-contato ul,
- .info-contato p{
+  .info-contato ul,
+  .info-contato p{
    padding: 1em;
  }
 }
