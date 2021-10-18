@@ -13,4 +13,18 @@ functin validar(){
   if (email.value ==""){
          alert(E-mail não informado);
          email.focus();
+  }
+  if (telefone.value ==""){
+         alert(Telefone não informado);
+         telefone.focus();
+  }
+  if (caso.value ==""){
+         alert(Caso não informado);
+         caso.focus();
+  }
+  if (mensagem.value ==""){
+         alert(Mensagem não informado);
+         mensagem.focus();
+  }
+         
 }
