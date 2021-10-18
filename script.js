@@ -1,9 +1,9 @@
-functin validar(){
+function validar(){
   let nome = document.getElementById("nome");
-  let nome = document.getElementById("email");
-  let nome = document.getElementById("telefone");
-  let nome = document.getElementById("caso");
-  let nome = document.getElementById("mensagem");
+  let email = document.getElementById("email");
+  let telefone = document.getElementById("telefone");
+  let caso = document.getElementById("caso");
+  let mensagem = document.getElementById("mensagem");
 
   if (nome.value ==""){
          alert(Nome não informado);
