@@ -40,7 +40,7 @@
          <input type="tel" 
          name="telefone"
          id="telefone"
-         pattern="\([0-9]{2}\)[0-9]{3}-[0-9]{2}-[0-9]{4}""
+         pattern="\([0-9]{2}\)[0-9]{3}-[0-9]{2}-[0-9]{4}"
          placeholder="(xx)xxx-xx-xxxx"
          required>
          </p>
@@ -76,6 +76,14 @@
       <p>TomokoFujimoto.Inc</p>
     </div>
     
-    <script src="script.js"></script>
+    <script src="script.js">
+     function validar(){
+       let nome = document.getElementById("nome");
+       if (nome.value ==""){
+         alert(Nome nãi informado);
+         nome.focus();
+       }
+     }
+    </script>
   </body>
 </html>
