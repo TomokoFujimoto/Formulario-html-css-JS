@@ -6,25 +6,30 @@ function validar(){
   let mensagem = document.getElementById("mensagem");
 
   if (nome.value ==""){
-         alert(Nome não informado);
+         alert ("Nome não informado");
          nome.focus();
          return;
   }
   if (email.value ==""){
-         alert(E-mail não informado);
+         alert("E-mail não informado");
          email.focus();
+         return;
   }
   if (telefone.value ==""){
-         alert(Telefone não informado);
+         alert("Telefone não informado");
          telefone.focus();
+         return;
   }
   if (caso.value ==""){
-         alert(Caso não informado);
+         alert("Caso não informado");
          caso.focus();
+         return;
   }
   if (mensagem.value ==""){
-         alert(Mensagem não informado);
+         alert("Mensagem não informado");
          mensagem.focus();
+         return;
   }
-         
+      
 }
+validar();
